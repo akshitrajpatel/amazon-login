@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from the linked GitHub repository
-                git url: 'https://github.com/akshitrajpatel/amazon-jenkins-login.git' // Replace with your GitHub repository URL
+                git url: 'https://github.com/akshitrajpatel/amazon-login.git' // Replace with your GitHub repository URL
             }
         }
 
